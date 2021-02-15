@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 public class FizzBuzz {
   public static void main(final String [] args) {
-    System.out.println("Enter a integer positive number:");
+    System.out.println("Enter a positive integer:");
 
     final Scanner scanner =  new Scanner(System.in);
     final int number = scanner.nextInt();
